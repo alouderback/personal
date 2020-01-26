@@ -1,0 +1,36 @@
+.line-title {
+    font-weight: bold;
+}
+#sidebar {
+    float: left;
+    width:20%;
+    padding: 25px;
+    border-style: solid;
+    border-width: thin;
+}
+#content {
+    float: left;
+    width: 70%;
+    padding: 25px;
+}
+#title {
+    font-variant-caps: small-caps;
+    text-align: center;
+    color: darkblue;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+h1{
+    margin: 5px;
+}
+h2 {
+    color: darkblue;
+    border-bottom-style: solid;
+    border-width:thin;
+}
+@media screen and (max-width: 800px) {
+  #sidebar, #content {   
+    width: 100%;
+    padding: 0;
+  }
+}
