@@ -1,84 +1,712 @@
 <!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-<html>
-    <head>
-        <title>Alex M. Louderback</title>
-        <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-    </head>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Alex Louderback</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <body>
-        <div id="title">
-            <h1>Alex M. Louderback - Resume</h1>
-        </div>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <div id= "content">
-            <div id="education">
-                <h2>Education</h2>
-                <span class="line-title">York College of Pennsylvania</span> | Computer Science, B.S. | May 2021 <br>
-                <span class="line-title">Harford Community College</span> | Computer Science, A.A. | May 2019 <br>
-                <span class="line-title">Awards:</span> HCC Honor's Program, York Dean's List <br>
-                <span class="line-title">Programming Language Experience:</span>Java, C++, Python, HTML, CSS, Javascript, Assembly, Swift <br>                
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Opportunities</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Quotes</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Alex Louderback.</h1>
+            <h3>I'm a <span>software engineer</span> with a passion for code, music, outdoors, and new oppoortunities. <a class="smoothscroll" href="#about">Scroll down</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/alexlouderback19"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/alex-louderback-a2a599149"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/alex_louderback/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://github.com/alouderback"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+                I'm a Computer Science student currently working towards Bachelor's Degree at York College of Pennsylvania. I love to code, listen to music, experience the outdoors, and try as many new opportunities as possible. I pride myself on being quick to adapt to company and team culture, and I work well under high stress and high pressure environments. I am currently President of Ski and Outdoor Club and Founding President of Transfer Student Union at York College of Pennsylvania.
+
+
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Alex Louderback</span><br>
+						   <span>441 Country Club Road<br>
+                                 Spring Garden Apartments, DZ B1025 <br>
+						         York, PA 17403 US
+                     </span><br>
+						   <span>(443)686-2297</span><br>
+                     <span>alex@alouderback.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="https://drive.google.com/file/d/152iIC2mPZ4mMiJz9pt1qmgprBOJAqiLJ/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>York College of Pennsylvania</h3>
+                  <p class="info">Bachelor's in Computer Science <span>&bull;</span> <em class="date">May 2021</em></p>
+
+                  <p>
+                  3.56 GPA <br>
+                  <b>Coursework:</b> Data Structures, Program Language Design, Software Engineering & Design, Networking and
+                  Systems Analysis, Cybersecurity, Fundamentals of Computer Engineering <br>
+                  <b>Extracirricular Opportunities:</b> Ski and Outdoor Club (President), Transfer Student Union (Founding President), Club Lacrosse, Phi Sigma Pi, Resident Assistant, Orientation Leader, IEEE <br>
+                  <b>Awards:</b> Dean's List    
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Harford Community College</h3>
+                  <p class="info">Associate's in Computer Science <span>&bull;</span> <em class="date">May 2019</em></p>
+
+                  <p>
+                  <b>Coursework:</b> Java Programming, Assembly Programming, Computer Programming <br>
+                  <b>Awards:</b> HCC Honor's Program
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>U.S. Army, C5ISR Command, Power and Integration</h3>
+                  <p class="info">Student Intern <span>&bull;</span> Secret Cleaance <span>&bull;</span> <em class="date">September 2019 - Present</em></p>
+                   Worked with team to implement server and client monitoring service for warfighters to use in battle, used JavaScript, Java, and HTML to fix bugs and implement new functions in monitoring dashboard
+                  <p>
+                  
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Best Buy</h3>
+                  <p class="info">Connected Life Sales Consultant <span>&bull;</span> <em class="date">June 2017 - Present</em></p>
+                   
+                  <p>
+                  Meet daily sales goals by building customer relationships through asking questions and selling lifestyle
+                  solutions
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+             <p><b>Programming Language Experience:</b> JAVA, C++, Python, HTML, CSS, JavaScript, Assembly, Swift <br>
+                 <b>Design & IDE Tools:</b> Android Studio, Visual Studio, Visual Studio Code, PyCharm, IntelliJ, Eclipse, CLion,
+                Brackets, UML <br>
+                 <b>Systems:</b> Windows 10, Ubuntu, CentOS, Chrome OS, macOS
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					    <li><span class="bar-expand java"></span><em>Java</em></li>
+                        <li><span class="bar-expand c"></span><em>C++</em></li>
+						<li><span class="bar-expand javascript"></span><em>Javascript</em></li>
+                        <li><span class="bar-expand python"></span><em>Python</em></li>
+                        <li><span class="bar-expand android"></span><em>Android Development</em></li>
+					    <li><span class="bar-expand html5"></span><em>HTML</em></li>
+                    </ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Recent opportunities.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/ces2020.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>CES2020</h5>
+                              <p>Las Vegas</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/twentyonepilots.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Concerts</h5>
+                              <p>Washington, D.C., Baltimore, Philadelphia</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/highrockoverlook.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>High Rock Overlook</h5>
+                              <p>Fredrick, Maryland</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/hamilton.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Hamilton</h5>
+                              <p>Baltimore, MD</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/ces2020lrg.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>CES 2020</h4>
+			      <p>I spent my 21st birthday in Las Vegas browsing new tech, testing bleeding edge products, and experiencing the future at CES 2020</p>
+               <span class="categories"><i class="fa fa-tag"></i>Consumer Technology, Future</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.ces.tech/">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div id= "projects">
-                <h2>Projects</h2>
-                <span class="line-title">Udacity Grow with Google Scholarship Program</span> | 01/18-10/18
-                <ul>
-                    <li>Researched new techniques of Android development by completing challenging course materials to further knowledge of programming Android applications</li>
-                    <li>Collaborated daily with mentors and community of 10,000 people using Slack and community forums to help myself and others grow knowledge and complete coursework</li>
-                </ul>
-                <span class="line-title">Web Design Project: Be Sharp</span> | 09/17-12/17
-                <ul>
-                    <li>Designed and programmed a website to help users discover new music and further their musical knowledge</li>
-                    <li>Supervised team of five by scheduling meetings, hosting workshops, and delegating tasks in order to help them learn CSS, HTML, and Javascript</li>
-                </ul>
-                <span class="line-title">Eagle Scout Project: Installation of a Flagpole at Fallston United Methodist</span> | 12/15-09/16<br>
-                <ul>
-                    <li>Researched information on flagpoles by visiting vendors, surveying grounds, and examining previous installations in order to develop BOM and process for flagpole installations</li>
-                    <li>Executed the project at a community worship center by leading 30 people through the successful installation of a flagpole, construction of surrounding gardens, and cleaning up church grounds</li>
-                </ul>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/twentyonepilots_lrg.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Concerts</h4>
+			      <p>In 2019, I saw Twenty One Pilots, Melanie Martinez, half-alive, and Yelawolf. So far, I have plans to see Alec Benjamin and AJR in 2020</p>
+               <span class="categories"><i class="fa fa-tag"></i>Music, Concerts, TOP, AJR, Melanie Martinez, Alec Benjamin, Yelawolf</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div id= "leadership-experience">
-                <h2>Leadership Experience</h2>
-                <span class="line-title">Ski and Outdoor Club, York College of Pennsylvania</span> | President | 12/19-Present<br>
-                <ul>
-                    <li>Delegate responsibility of organizing outings, events, and meetings to Executive Board members</li>
-                    <li>Correspond with businesses to price and schedule events, ensuring all activities are within budget</li>
-                </ul>
-                <span class="line-title">Boy Scout Troop 899</span> | Senior Patrol Leader | 08/14-02/15<br>
-                <ul>
-                    <li>Led Patrol Leader Council of eight scouters by scheduling leadership meetings, creating agendas, and delegating responsibility to help Troop function, grow, and thrive</li>
-                    <li>Represented troop on all outings by meeting with camp officials, other troops, and adult leaders to ensure the execution of events</li>
-                </ul>
-                <span class="line-title">Harford County Public Library Board of Trustees</span> | Student Liaison | 06/16-06/17<br>
-                <ul>
-                    <li>Represented 44,200 students to HCPL Board of Trustees by gathering student feedback and promoting student interests</li>
-                    <li>Prepared and presented report for monthly board meeting on the current state of affairs of student interests</li>
-                </ul>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/highrockoverlooklrg.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>High Rock Overlook</h4>
+			      <p>I travelled with friends to western Maryland to hike to High Rock Overlook. One of the most beautiful sights in Maryland, and couldn't have asked for better friends to experience it with</p>
+               <span class="categories"><i class="fa fa-tag"></i>Hike, Outdoors, Sightseeing</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.tripadvisor.com/Attraction_Review-g41044-d8506351-Reviews-High_Rock_Overlook-Cascade_Maryland.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div id= "work-experience">
-                <h2>Work Experience</h2>
-                <span class="line-title">C5ISR Command, Power, and Integration (U.S. Army) </span> | Student Intern, Secret Clearance | 09/19-Present<br>
-                <ul>
-                    <li>Led Patrol Leader Council of eight scouters by scheduling leadership meetings, creating agendas, and delegating responsibility to help Troop function, grow, and thrive</li>
-                    <li>Represented troop on all outings by meeting with camp officials, other troops, and adult leaders to ensure the execution of events</li>
-                </ul>
-                <span class="line-title">Best Buy</span> | Sales Consultant | 06/17-Present<br>
-                <ul>
-                    <li>Interact with customers to suggest best possible solution for their needs</li>
-                    <li>Meet daily sales goals by building customer relationships through asking questions and selling lifestyle solutions</li>
-                </ul>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/hamilton_lrg.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Hamilton</h4>
+			      <p>After years of memorizing the soundtrack, I was finally able to see Hamilton in the Hippodrome theatre in Baltimore in June 2019</p>
+               <span class="categories"><i class="fa fa-tag"></i>Musicals</span>
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-        </div>
-        
-        
-        <div id= sidebar>
-            <h2>Contact Information</h2>
-            441 Country Club Road<br>
-            York College of Pennsylvania, DZ B1025<br>
-            York, PA 17403<br>
-            email: alex@alouderback.com<br>
-            mobile: (443) 686-2297<br>
-        </div>
-    </body>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><span class="lead">Always on the Lookout</span></h2>
+            <p><span class="lead">In our ever-changing society, I strive to be two steps ahead of the curve. Everywhere I look, there are new things to try, new people to meet, new places to visit, and new opportunities to explore. I plan to pack my days with experiences that pursue, fulfill and sustain my hunger to try all the world has to offer.</span></p>
+
+         </div>
+
+         <div class="three columns action">
+
+
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Quotes</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.
+                           </p>
+                           <cite>Winston S. Churchill</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Innovative people do not need to be told to do it, they need to be allowed to do it.
+                           </p>
+                           <cite>Eric Schmidt</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Feel free to get in touch if you have any questions, comments, or new opportunities for me to try.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Alex Louderback<br>
+						   441 Country Club Road <br>
+                           Spring Garden Apartments, DZ B1025 <br>
+						   York, PA 17403 US<br>
+						   <span>(443) 686-2297</span>
+					   </p>
+
+				   </div>
+                
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/alexlouderback19"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/alex-louderback-a2a599149"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/alex_louderback/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://github.com/alouderback"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>Designed by Alex Louderback </li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
